@@ -1,33 +1,27 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 4em;
-  margin: 30px 50px;
 }
 
-.highlight {
-  background: rgba(8, 224, 149, 0.77);
-  font-weight: 550;
-  letter-spacing: 2px;
-}
-
-.highlight:hover {
+.name {
   background: none;
   font-weight: 550;
   color: #000;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
+  letter-spacing: 2px;
 }
 
 .sub-heading {
-  font-size: 40px;
+  font-size: calc(1.3rem + 0.6vw);
+  font-weight: 500;
 }
 
 .text-outline {
+  font-size: 2rem;
   font-weight: 550;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 2px;
 }
 
@@ -38,15 +32,15 @@ body {
 }
 
 .blue:hover {
-  background: rgba(0, 140, 255, 0.701);
+  background: rgb(35, 156, 254);
 }
 
 .yellow:hover {
-  background: rgba(255, 234, 3, 0.571);
+  background: rgba(254, 238, 65, 0.996);
 }
 
 .pink:hover {
-  background: rgba(255, 3, 154, 0.578);
+  background: rgb(255, 75, 183);
 }
 
 .li-passion {
@@ -57,4 +51,23 @@ body {
 .ul-passion {
   text-align: center;
   margin: 80px 0;
+}
+
+.hero {
+  background: rgba(8, 224, 149, 0.77);
+}
+
+.hero-btn {
+  font-weight: 700;
+}
+
+.hero-btn:hover {
+  background: rgb(74, 71, 73);
+  color: white;
+  border: solid 2px rgb(74, 71, 73);
+}
+
+.hero-btn-outline {
+  border: solid 1px;
+  font-weight: 700;
 }
