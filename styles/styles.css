@@ -1,20 +1,23 @@
 :root {
   --brading-color: rgba(8, 224, 149, 0.77);
-  --accent-color: rgb(255, 75, 183);
+  --accent-color: rgb(249, 84, 183);
   --secondary-color: rgb(31, 30, 31);
   --font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--font-family);
-  font-size: 4em;
 }
 
 .name {
+  font-size: 4em;
   background: none;
-  font-weight: 550;
   color: var(--secondary-color);
   letter-spacing: 2px;
+}
+
+.bold {
+  font-weight: 550;
 }
 
 .sub-heading {
@@ -57,6 +60,7 @@ body {
 
 .hero-btn {
   font-weight: 700;
+  margin: 50px 10px 10px 50px;
 }
 
 .hero-btn:hover {
@@ -68,6 +72,7 @@ body {
 .hero-btn-outline {
   border: solid 1px;
   font-weight: 700;
+  margin: 50px 50px 10px 10px;
 }
 
 .li-passion {
