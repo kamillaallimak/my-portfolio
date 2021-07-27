@@ -1,5 +1,5 @@
 :root {
-  --brading-color: rgba(8, 224, 149, 0.77);
+  --brading-color: rgba(104, 228, 184, 0.77);
   --accent-color: rgb(249, 84, 183);
   --secondary-color: rgb(31, 30, 31);
   --font-family: "Poppins", sans-serif;
@@ -55,7 +55,7 @@ body {
 }
 
 .hero {
-  background: var(--brading-color, rgba(8, 224, 149, 0.77));
+  background: var(--brading-color, rgba(158, 248, 217, 0.77));
   padding: 92px 0 0 0;
 }
 
@@ -191,6 +191,10 @@ p {
     margin: 20px auto;
     font-size: 15px;
   }
+
+  .hero {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -219,5 +223,11 @@ p {
     margin: 0 auto;
     max-width: 90%;
     text-align: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .invisible-xs {
+    display: none;
   }
 }
