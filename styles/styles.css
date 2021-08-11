@@ -138,11 +138,23 @@ h5 {
 }
 
 .link-color-2 {
-  background: rgb(233, 90, 11);
+  background: var(--secondary-color);
 }
 
 .link-color-3 {
   background: var(--accent-color);
+}
+
+.link-color-2:hover {
+  background: white;
+  border: solid 1px var(--secondary-color);
+  color: var(--secondary-color);
+}
+.link-color-1:hover,
+.link-color-3:hover {
+  background: white;
+  border: solid 1px var(--accent-color);
+  color: var(--accent-color);
 }
 
 .launch-link {
@@ -194,7 +206,7 @@ h5 {
 
 .contact {
   text-decoration: none;
-  color: var(--brading-color);
+  color: var(--active-branding-color);
   transition: color 0.5s ease-in-out;
 }
 .contact:hover {
