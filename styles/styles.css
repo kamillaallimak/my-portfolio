@@ -254,9 +254,9 @@ nav li a:hover {
 }
 
 @media (max-width: 1400px) and (min-width: 1200px) {
-  .hide-img {
+  .hero-img {
     position: absolute;
-    top: 341px;
+    top: 344px;
     width: 500px;
   }
 }
