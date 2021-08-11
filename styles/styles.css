@@ -44,6 +44,10 @@ h5 {
   font-weight: 500;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-outline {
   font-weight: 550;
   font-size: 40px;
@@ -82,21 +86,16 @@ h5 {
 }
 
 .hero-btn {
-  font-weight: 700;
-  margin: 50px 10px 10px 50px;
+  transition: all 100ms ease-in-out;
+  display: block;
+  margin: 50px auto;
+  width: 300px;
 }
 
-.hero-btn-outline {
-  border: solid 1px;
-  font-weight: 700;
-  margin: 50px 50px 10px 10px;
-}
-
-.hero-btn:hover,
-.hero-btn-outline:hover {
+.hero-btn:hover {
   background: var(--accent-color);
   color: white;
-  border: solid 2px var(--accent-color);
+  border: solid 1px var(--accent-color);
 }
 
 .li-passion {
@@ -241,6 +240,14 @@ nav li a:hover {
   color: var(--accent-color);
 }
 
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .hide-img {
+    position: absolute;
+    top: 341px;
+    width: 500px;
+  }
+}
+
 @media (max-width: 1200px) {
   .invisible-small {
     display: none;
@@ -272,10 +279,6 @@ nav li a:hover {
   }
   h2 {
     font-size: 30px;
-  }
-
-  .text-center-small {
-    text-align: center;
   }
 
   .name {
